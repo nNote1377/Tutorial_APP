@@ -1,9 +1,12 @@
-#importowanie przyk�adowych rozszerze�
+#importowanie przykładowych rozszerzeń
 import math #rozszerzona matematyka
 import tkinter #graficzne GUI
 import random #moduł pozwalający tworzyć liczby pseudolosowe 
 
-rozdzial=int(input("Wpisz który rozdiał chcesz przetestować: "))
+print("Program do wyboru:")
+print("1. Kalkulator")
+
+rozdzial=int(input("Wpisz nr. rozdiału króry chcesz przetestować: "))
 if rozdzial == 1:
     wartosc1=int(input('Wpisz 1. liczbe '))
     #Dzięki poleceniu "input możemy podać wartość zmiennej podczas działania programu"
@@ -12,3 +15,4 @@ if rozdzial == 1:
     print(wartosc1)#Drukujemy wartość pierwszej zmiennej
     print(wartosc2)#Drukkujemy wartość drugiej zmiennej
     print(wartosc1*wartosc2)#Drukujemy iloczyn naszych zmienncy
+elif rozdzial == 2:
