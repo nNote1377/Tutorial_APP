@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="kalkulator.py" />
     <Compile Include="Tutorial_APP.py" />
   </ItemGroup>
   <ItemGroup>
